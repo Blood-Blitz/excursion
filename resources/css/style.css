@@ -1,6 +1,8 @@
 body {
     background-color: black;
     text-align: center;
+    font-family: 'Verdana';
+    color: white;
 }
 
 #head-title {
@@ -12,9 +14,48 @@ body {
     padding: 5px;
 }
 
-.link {
+a {
     color: aquamarine;
     font-size: 16px;
     font-family: "Verdana";
     text-decoration-line: underline;
+}
+
+a:hover{
+    color: purple;
+    cursor: pointer;
+}
+
+a:active{
+    color: blue;
+}
+
+a:visited {
+    color: red;
+}
+
+video {
+    padding: 5px;
+}
+
+p {
+    color: gray;
+}
+
+#eye-catcher {
+    font-size: 21px;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 42px;
+}
+img {
+    display: block;
+    margin: auto;
+    padding: 5px;
+}
+
+footer {
+    text-align: right;
 }
